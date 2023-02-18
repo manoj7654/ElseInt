@@ -17,4 +17,4 @@ jobs:
     - name: install packages
       run: npm i
     - name: Run ESLint
-      uses: npx eslint
+      run: npx eslint
